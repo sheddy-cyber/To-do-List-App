@@ -1,2 +1,9 @@
 # To-do-List-App
-A simple to-do list web app that stores and loads tasks from local storage.
+A simple to-do list application built with vanilla JavaScript.
+
+Key Features:
+Add, complete, and delete tasks
+Keyboard support (press Enter to add)
+Prevents duplicate tasks
+Automatic saving with localStorage
+Data migration and error handling
