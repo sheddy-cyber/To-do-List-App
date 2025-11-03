@@ -2,8 +2,8 @@
 A simple to-do list application built with vanilla JavaScript.
 
 Key Features:
-Add, complete, and delete tasks
-Keyboard support (press Enter to add)
-Prevents duplicate tasks
-Automatic saving with localStorage
-Data migration and error handling
+(1) Add, complete, and delete tasks
+(2) Keyboard support (press Enter to add)
+(3) Prevents duplicate tasks
+(4) Automatic saving with localStorage
+(5) Data migration and error handling
