@@ -92,8 +92,8 @@ function loadTasks() {
     tasks = tasks.map(t => {
         // If no id exists, create one (preserve existing properties)
         if (!t.id) {
-        t.id = Date.now().toString() + Math.floor(Math.random() * 10000).toString();
-        migrated = true;
+            t.id = Date.now().toString() + Math.floor(Math.random() * 10000).toString();
+            migrated = true;
         }
         // Ensure completed is boolean (defensive)
         t.completed = !!t.completed;
@@ -125,11 +125,12 @@ taskList.addEventListener("click", function (e) {
 
     if (e.target.classList.contains("complete")) {
         tasks = tasks.map(t => {
-        if (t.id === id) t.completed = !t.completed;
-        return t;
+            if (t.id === id) t.completed = !t.completed;
+            return t;
         });
         saveTasks(tasks);
         loadTasks();
         return;
     }
+
 });
